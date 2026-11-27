@@ -1,0 +1,7 @@
+{
+  "source": "Actual recorded runs, not generated/replayed planner outputs",
+  "projection": "Private host paths, command arguments and raw provider streams omitted; event values retained without inventing events",
+  "private_raw_retained_locally": true,
+  "full_tool_raw_claim": false,
+  "provider_raw_hashes": "PRIVATE_RAW_HASHES.json"
+}

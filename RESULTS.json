@@ -1,0 +1,47 @@
+{
+  "actual_model": "claude-haiku-5-5",
+  "actual_tools": [],
+  "actual_mcp_servers": [],
+  "api_key_source": "none",
+  "happy": {
+    "exit": 0,
+    "seconds": 6.439570446,
+    "state": "committed_verified",
+    "changed_files": [
+      "docs/setup.md"
+    ],
+    "lines_changed": 1,
+    "poststate_sha256": "4a26ebd02b719fa7d759fe8eb27fa37714e9276ffa34dccc7f4ce1f1084f546a",
+    "observed_pids_remaining": []
+  },
+  "abort": {
+    "exit": 3,
+    "seconds": 2.8655637680000003,
+    "automatic_trigger": true,
+    "state": "aborted",
+    "files_unchanged": true,
+    "observed_pids_remaining": []
+  },
+  "new_targeted_tests": {
+    "count": 37,
+    "failures": 0,
+    "errors": 0,
+    "model_calls": 0
+  },
+  "system_preflight": {
+    "pass": true,
+    "model_calls": 0,
+    "candidate_imports": false
+  },
+  "source_sha256": {
+    "adapter.py": "2400bf607902724a84b38d7112adbef0bce6bea2e1dbb21e6fced17915f9d13c",
+    "guardian.py": "045807ca81dc99bdc5f780c25da9a7c70f4dd3a87638d33fe96676122417d0ca",
+    "worker_base.sb": "acf0410bd1b6a1a6ad81dc44666274ae4d9759eef6c22a0dcd82047c8ddced91",
+    "test_adapter.py": "4c13d04e80607bc216c5ecca82f9bfafce1fcfb5b404ba14d7fe4fae7780d815",
+    "test_guardian.py": "4b89b1598659f41c06fbcbb369383f3ae4aab9fabb6a7aee5d98b3920e7360ac"
+  },
+  "scope": "One bounded documentation maintenance job; no CI repair, broad autonomous coding or all-20 Trap Pack claim",
+  "publication": "NOT_PUBLISHED",
+  "submission": "NOT_SENT",
+  "independent_review": "See detached acceptance receipt for this frozen candidate"
+}

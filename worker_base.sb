@@ -1,0 +1,8 @@
+(version 1)
+(deny default)
+(allow file-read-metadata)
+(allow file-read* (literal "/"))
+(allow sysctl-read)
+(allow process-exec (literal "__PYTHON__") (literal "__PYTHON_APP__"))
+(allow file-read* (subpath "/System") (subpath "/usr") (subpath "/Library/Frameworks/Python.framework") (subpath "/Library/Developer/CommandLineTools") (subpath "/Applications/Xcode.app") (subpath "/opt/homebrew/Cellar/python@3.13") (subpath "/opt/homebrew/Cellar/python@3.14") (literal "/dev/null") (literal "/dev/urandom") (subpath "__CODE_DIR__") (subpath "__WORKSPACE__"))
+(allow file-write* (subpath "__WORKSPACE__"))

@@ -1,0 +1,23 @@
+{
+  "file": "DEMO.mp4",
+  "sha256": "55aded4ee80dcd9db7ae7c868a55f9d465d63ec0dff90acf9963af6495c018d0",
+  "duration_seconds": 110,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "bytes": 40939719,
+  "visualization": "EVIDENCE RECONSTRUCTION \u00b7 TIMING EDITED",
+  "actual_recorded_happy_seconds": 6.439570446,
+  "actual_recorded_abort_seconds": 2.865563768,
+  "display_seconds": [
+    6.44,
+    2.87
+  ],
+  "test_count_explanation": "48 is11engine+37adapter tests, two separate suites; OS preflight separate, not48securityguarantees or20of20traps",
+  "voice": "Synthetic English Kokoro82M v1.0 am_michael, local inference",
+  "music_sfx": "Original local deterministic synthesis, no external music samples",
+  "brand": "Owner-provided WERYFI AI VERIFY logo, original pixels; no trademark-registration claim",
+  "independent_review": "PASS_SCOPED_MEDIA on12decodedframes; no independent human audio listening/continuous playback claim",
+  "owner_film_accepted": true,
+  "published": false
+}

@@ -1,0 +1,70 @@
+{
+  "happy": {
+    "happy_stdout.json": {
+      "sha256": "97513bd3516c0f88c460f36ad30b3b014b3a360d56750dd07ea9c1c3931beaba",
+      "bytes": 417
+    },
+    "happy_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "provider_stderr.bin": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "worker_stdout.bin": {
+      "sha256": "f1fc2bd1987c22d9deb6d271939d9450e5b3657a263837e7c0f890bd421e21cf",
+      "bytes": 326
+    },
+    "empty_mcp.json": {
+      "sha256": "139f0a6d5883f3caadbca38e6cbcc1d39ffcbff19c43fc17f5d6163673021b5e",
+      "bytes": 18
+    },
+    "run.jsonl": {
+      "sha256": "72505f8b9c805cc235f7fff109befe213fa963d575012ff89a32734a54f72f9b",
+      "bytes": 6190
+    },
+    "provider_stdout.bin": {
+      "sha256": "24f036d274423075f1cbca0f29070399b26cb4690a9c5e7f5e22c34b962d93be",
+      "bytes": 21701
+    },
+    "derived.sb": {
+      "sha256": "6281bd1d1e3aa3030cd4513f32f733f40c7266a8ff89aafa5b52ef59ffacd332",
+      "bytes": 1058
+    },
+    "worker_stderr.bin": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  "abort": {
+    "abort_stdout.json": {
+      "sha256": "22a1dc1cffd26c4e1bbb8e1cc80a4c8568bc68d45ef3d11b3d7616adc0462cda",
+      "bytes": 308
+    },
+    "abort_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "provider_stderr.bin": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "empty_mcp.json": {
+      "sha256": "139f0a6d5883f3caadbca38e6cbcc1d39ffcbff19c43fc17f5d6163673021b5e",
+      "bytes": 18
+    },
+    "run.jsonl": {
+      "sha256": "7b616ee9568722ccead96fc3a513cb3637669729ad5f4e97080655aafce61275",
+      "bytes": 3544
+    },
+    "provider_stdout.bin": {
+      "sha256": "317f2d569fc5ddb980734c3e07403f2d0acb8e1f20424965d5515717a13ecaed",
+      "bytes": 12828
+    },
+    "derived.sb": {
+      "sha256": "412fcd2499fb4ff481f363f020dcbf44cd51199ad1131cbeac7f1a2384905e37",
+      "bytes": 1058
+    }
+  }
+}

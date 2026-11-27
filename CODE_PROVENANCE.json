@@ -1,0 +1,44 @@
+{
+  "event": "Agentware2026",
+  "code_window_utc": {
+    "start": "2026-11-27T18:00:00+00:00",
+    "freeze": "2026-11-30T18:00:00+00:00"
+  },
+  "code_window_CET": {
+    "start": "2026-11-27 19:00 CET",
+    "freeze": "2026-11-30 19:00 CET"
+  },
+  "project_source_generation": [
+    {
+      "component": "engine",
+      "actual_model": "claude-sonnet-5-5",
+      "start_utc": "2026-11-27T18:18:42.316392+00:00",
+      "end_utc": "2026-11-27T18:24:35.011794+00:00",
+      "capture_metadata_sha256": "e89c525d7b746588fed44ea6067f5d4cbe42e57752a7623c97893acdaffa74d1",
+      "within_72_hour_window": true,
+      "capture_outcome": "BLOCKED"
+    },
+    {
+      "component": "adapter",
+      "actual_model": "claude-sonnet-5-5",
+      "start_utc": "2026-11-27T19:23:22.598313+00:00",
+      "end_utc": "2026-11-27T19:28:22.379677+00:00",
+      "capture_metadata_sha256": "81269865263d80be3baf9db7f46d3af0af45e70cafd109e42b13d879293f8638",
+      "within_72_hour_window": true,
+      "capture_outcome": "ENDED_SOURCE_TEXT_ONLY"
+    }
+  ],
+  "notes": [
+    "Engine initial capture ended on a bounded-stream safety stop; intact source was recovered, independently admitted and later actually tested. Failed history is preserved privately.",
+    "Source generation evidence and independent source pins support the recorded window; file mtimes alone are not used as authorship proof.",
+    "Project-specific code is new; existing Python/ClaudeCLI and media tools are dependencies, not relabelled project code. Private factory source and organizer answer keys are excluded.",
+    "This release assembly did not execute/import code, run product tests or call models."
+  ],
+  "source_sha256": {
+    "guardian.py": "045807ca81dc99bdc5f780c25da9a7c70f4dd3a87638d33fe96676122417d0ca",
+    "test_guardian.py": "4b89b1598659f41c06fbcbb369383f3ae4aab9fabb6a7aee5d98b3920e7360ac",
+    "adapter.py": "2400bf607902724a84b38d7112adbef0bce6bea2e1dbb21e6fced17915f9d13c",
+    "test_adapter.py": "4c13d04e80607bc216c5ecca82f9bfafce1fcfb5b404ba14d7fe4fae7780d815"
+  },
+  "source_review": "Independent admission and actual-evidence review already completed; no new independent code claim"
+}
