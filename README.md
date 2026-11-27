@@ -8,9 +8,9 @@ The included traces record a real Claude Haiku run, not a mocked planner or repl
 
 The 37 new targeted tests passed with synthetic providers. They do not substitute for the real-model evidence. The finite OS prerequisite check passed positive I/O, helpers, limits and cleanup, and negative network/outside-path/process controls. The frozen guardian.py engine was not changed or repeatedly retested during adapter work.
 
-## Setup (macOS, approximately 10 minutes)
+## Setup (macOS; measured fresh-project trial below 15 minutes)
 
-Use Python 3.9+ and the existing sandbox-exec utility. No Python package installation is needed. The live planner uses an already-authorized official Claude Code subscription login. No credentials are included, and no pay-as-you-go API path was used in the recorded runs. Before a live run, verify claude auth status reports claude.ai/firstParty and that existing settings do not route through an API key helper, Bedrock, Vertex or paid API endpoint. Do not copy our credentials. Recorded evidence and synthetic tests can be inspected without any login.
+See [JURY_SETUP.md](JURY_SETUP.md) and [INSTALLATION_CHECK.json](INSTALLATION_CHECK.json) for the measured fresh-project installation trial, exact prerequisite scope and required in-project venv placement. Use Python 3.9+ and the existing sandbox-exec utility. No Python package installation is needed. The live planner uses an already-authorized official Claude Code subscription login. No credentials are included, and no pay-as-you-go API path was used in the recorded runs. Before a live run, verify claude auth status reports claude.ai/firstParty and that existing settings do not route through an API key helper, Bedrock, Vertex or paid API endpoint. Do not copy our credentials. Recorded evidence and synthetic tests can be inspected without any login.
 
 Put the files in a directory owned by you, not writable by other users. Its ancestors must also be protected (a sticky temporary-directory ancestor is supported). Choose fresh absolute output and workspace paths whose parents exist. Both paths must be outside the code directory and must not exist yet.
 
@@ -46,9 +46,9 @@ Code was authored after the competition kickoff. Claude Sonnet authored the adap
 
 ## License and credits
 
-Project: MIT. Trap artifacts: Agentware 2026 Trap Pack, Hackathon Raptors, CC BY 4.0. This is a private submission candidate. No repository was published and no competition form was submitted.
+Project: MIT. Trap artifacts: Agentware 2026 Trap Pack, Hackathon Raptors, CC BY 4.0. The owner authorized publication of this contest project and accepted film. The public repository is https://github.com/hotelkrynicabiuro-ux/weryfi-guardian-agentware-2026. The competition form remains prepared and NOT_SUBMITTED pending the owner's latest final-approval instruction.
 
 
 ## Final release media and license boundary
 
-See RELEASE_NOTES.md for the owner-approved110-second PREMIUM film and measured evidence scope. Root MIT LICENSE covers project code; official fixture and rendered brand/media have separate notices in THIRD_PARTY_NOTICES.md. Setup duration remains an estimate, not an independent under15-minute installation result. Public links: NOT_PUBLISHED; submission: NOT_SENT.
+See RELEASE_NOTES.md for the owner-approved110-second PREMIUM film and measured evidence scope. Root MIT LICENSE covers project code; official fixture and rendered brand/media have separate notices in THIRD_PARTY_NOTICES.md. A fresh project/venv installation plus a real jury command was subsequently measured below15minutes, with prerequisite scope and original failure preserved in INSTALLATION_CHECK.json. This is coordinator-observed, not a new independent Codex assessment. Public repository: https://github.com/hotelkrynicabiuro-ux/weryfi-guardian-agentware-2026. Submission: NOT_SENT pending final owner approval.

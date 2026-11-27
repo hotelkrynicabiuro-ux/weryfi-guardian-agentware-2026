@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-11-27T21:34:01.505416+00:00",
+  "status": "PASS_SCOPED_FRESH_PROJECT_INSTALL_AND_ACTUAL_JURY_COMMAND",
+  "scope": "Fresh release ZIP extraction and new Python venv, on an existing supported Intel macOS host with Python3.9.6,sandbox-exec and already-authorized official ClaudeMaxlogin. Not a new OS installation or new provider account.",
+  "fresh_source_archive_sha256": "bb4fa0356a8d715308dae27c11da8bc1debe366690aeae7fff323140bb6a0a80",
+  "elapsed_seconds_corrected_clean_environment": 68.6506359577179,
+  "elapsed_seconds_including_failed_attempt_and_diagnosis": 190.65131402015686,
+  "within15minutes": true,
+  "actual_agent_run_seconds": 5.737721728,
+  "actual_model": "claude-haiku-5-5",
+  "actual_tools": [],
+  "actual_mcp_servers": [],
+  "actual_api_key_source": "none",
+  "actual_result": "committed_verified",
+  "poststate_sha256": "4a26ebd02b719fa7d759fe8eb27fa37714e9276ffa34dccc7f4ce1f1084f546a",
+  "owned_pids_remaining": [],
+  "source_5pins_unchanged": true,
+  "film_unchanged": true,
+  "first_attempt": {
+    "result": "FAIL, files unchanged",
+    "reason": "Test runner initially placed venv outside allowed code read root. Worker correctly denied pyvenv.cfg read.",
+    "correction": "Fresh venv placed within already-allowed code directory; no source/profile/permission change.",
+    "evidence": "Original failure and complete private captures retained; not replaced by PASS"
+  },
+  "new_model_calls_for_installation_trial": 2,
+  "previous_product_suites": "Not rerun;11engine/37adapter/preflight results are earlier evidence",
+  "independent_review_scope": "Coordinator-observed installation trial of previously independently admitted exact source; not a new independent Codex review",
+  "private_evidence_retained": true,
+  "private_raw_published": false,
+  "evidence_hashes": {
+    "initial_failed_result_sha256": "051046739ad47db35105fdb16aa4dc6fbb2f20cb9ded3e7a48c598acfb7e640c",
+    "corrected_result_sha256": "5b50226da90b6d93c593fb314c0a38ac2a636b85d6cce2dc38a2e91cc615c5e3"
+  },
+  "film_claims": "Accepted film still visualizes earlier6.44s successful run and2.87sstop, not this new5.74srun.48=11+37distinctsuites;preflightseparate;not20/20."
+}
